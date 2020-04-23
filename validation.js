@@ -29,6 +29,11 @@ function checkInputs()
     else {
             setSuccessFor(name);
     }
+    if (enquiryValue === "") {
+        setErrorFor(enquiry,"Field cannot be blank");  
+    } else {
+        setSuccessFor(enquiry);
+    }
 
     if (emailValue === "") {
         setErrorFor(email, "Email cannot be blank");
