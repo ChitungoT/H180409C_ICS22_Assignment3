@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        
+            <title>Assignment 3</title>
+            <meta name="description" content="This is the description">
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <div class="container">
+            <div class="header">
+                <h2>Enquiries</h2>
+            </div>
+            <form class="form" id="form">
+                <div class="form-control">
+                    <label> Name</label>
+                    <input type="text" placeholder="Name" id="name">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-cicle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label> Number</label>
+                    <input type="number" placeholder="Number" id="number">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-cicle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label> Email</label>
+                    <input type="email" placeholder="Email" id="email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-cicle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label> Enquiry</label>
+                    <input class="Memo" type="text" placeholder="Type Here" id="enquiry">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-cicle"></i>
+                    <small>Error Message</small>
+                </div>
+                <button class="btn">SUBMIT</button>
+            </form>
+        </div>
+        <script src="validation.js"></script>
+    </html>
